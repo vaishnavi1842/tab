@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.tabHeading{
+	background-color:black;
+	color:white;
+	display:flex;
+}
+
+.tabHeading li{
+	display:inline-block;
+	width:25%;
+	padding:20px 0;
+	text-align:center;
+	cursor:pointer;
+		
+}
+
+.tabcontent{
+	display:none;
+}
+
+.tabcontent.active{
+	display:block;
+}
+
+.tabHeading li.active{
+	background-color:orange;
+}
+
+.tabHeading li:hover,
+.tabHeading li:focus,
+.tabHeading li:active{
+	background-color:orange;
+}
